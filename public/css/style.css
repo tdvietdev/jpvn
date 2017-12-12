@@ -1,0 +1,118 @@
+body {
+   font-family:'Roboto', sans-serif;
+   color: #000000;
+   line-height:1.2em;
+   font-size:17px;
+   line-height:20px;
+}
+a {
+   color:#181A1C;
+   text-decoration: none;
+}
+a:hover {
+   color: #FECE1A;
+   text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6 {
+   font-weight: normal;
+}
+h1 {
+   margin: 10px;
+}
+p {
+   padding: 10px;
+   font-weight: 100;
+   color: #fff;
+}
+
+
+.navbar {
+    background: #181A1C;
+    margin-bottom:0;
+}
+.navbar-brand{
+    margin: 10px 3px;
+}
+.navbar-fixed-top {
+    padding-top:0;
+}
+.navbar .nav > li > a {
+    text-transform:uppercase;
+    line-height: auto;
+    vertical-align: middle;
+    margin:10px 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border: 1px solid #181A1C;
+    box-shadow: none;
+    text-shadow: none;
+    color: #fff;
+    transition: border-color 1s ease;
+}
+.navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    border: 1px solid #FECE1A;
+    color: #fff;
+    background-color: #181A1C;
+    transition: border-color 1s ease;
+}
+
+.btn-default{
+    border:none;
+    background-color:#FECE1A;
+    color:#181A1C;
+	border-radius: 0;
+}
+.btn-default:hover, .btn .btn-default:active{
+    background-color:#181A1C;
+    color:#FECE1A;
+}
+section{
+    margin-top: 100px;
+}
+
+textarea{
+    margin-top: 5px;
+    border: 2px solid #fff
+}
+
+p{
+    color: black;
+}
+
+/*p a{
+    text-decoration: underline;
+    color: #4d79ff;
+}*/
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+}
+
+/* .g-recaptcha div { margin-left: auto; margin-right: auto;} */
+
+.g-recaptcha{
+    margin: 15px auto !important;
+    width: auto !important;
+    height: auto !important;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: -o-center;
+    text-align: -ms-center;
+ }
+/* .text-xs-center {
+    text-align: center;
+} */
