@@ -1,5 +1,5 @@
 $('button#translate').click(function(e) {
-
+    var $btn = $(this);
     // document.getElementById('captcha').innerHTML="<br>Captcha completed <br>";
     $.ajax({
         url: "translate",
