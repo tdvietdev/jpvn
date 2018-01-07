@@ -26,7 +26,7 @@ class Translate extends Controller
 
 
         $list_paragraph = array();
-        if ($request->segmentor == "true") {
+        if ($request->segmentor == "false") {
             $mListParagraph = explode("\n", $text);
 //            var_dump($mListParagraph);
             foreach ($mListParagraph as $key => $value) {

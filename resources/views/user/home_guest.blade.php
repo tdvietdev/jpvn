@@ -45,10 +45,12 @@
         
         <div class = "capatcha">
             <div class="g-recaptcha" data-sitekey="6LdyVzkUAAAAALu1HVWDaJ7lKoWp_xciEDiZw-V6"></div>
+            <!-- <div class="g-recaptcha" data-sitekey="6LdzbjQUAAAAAEiIA9MnLU4TJRvkbAWPdZhofHzN"></div> -->
             <span id = "captcha"></span>
         </div>
         <div class="checkbox text-center" >
-            <button type="button" class="btn btn-default" id = "translate">Translate</button>
+            <button type="button" class="btn btn-default btn-lg" id = "translate">Translate</button>
+            <!-- <button type="button" class="btn btn-primary btn-lg" id="translate" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing Order"><i class="fa fa-circle-o-notch fa-spin"></i>Translate</button> -->
             
         </div>
         

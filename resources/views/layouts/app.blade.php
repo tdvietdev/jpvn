@@ -20,7 +20,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <script src='https://www.google.com/recaptcha/api.js'></script>
-
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     @yield('styles')
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,16 +29,18 @@
     
 </head>
 <body>
+
 @include('partials.user_navbar')
 
 <div class="container">
-@yield('content')
+    @yield('content')
+    
 </div>
 @include('partials.user_footer')
 
 
 @yield('scripts')
-<script type="text/javascript" src="{{ asset('js/exchange_language.js') }}"></script>s
+<script type="text/javascript" src="{{ asset('js/exchange_language.js') }}"></script>
 
 </body>
 </html>
